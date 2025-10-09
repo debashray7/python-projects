@@ -26,7 +26,6 @@ _(Coming soon...)_
 
 ## 📫 Connect With Me
 - GitHub: [@debashray7](https://github.com/debashray7)
-
 ## 📝 Learning Resources
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 - [Python.org](https://www.python.org/)

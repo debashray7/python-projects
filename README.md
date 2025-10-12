@@ -12,7 +12,7 @@ This repository contains my Python projects while learning from "Automate the Bo
 
 ### Chapter 1: Python Basics
 1. **Calculator** - Basic arithmetic operations
-2. **Temperature Converter** - Celsius to Fahrenheit/Kelvin
+2. **Temperature Converter** - Converts temperature from one scale to another
 3. **Personal Info Display** - Working with variables and strings
 4. **Shopping Bill** - Calculate total with tax
 5. **Cricket Stats Calculator** - Calculate batting stats

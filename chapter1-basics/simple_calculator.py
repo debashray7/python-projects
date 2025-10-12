@@ -1,14 +1,42 @@
-n1 = float(input("Enter first number: "))
-n2 = float(input("Enter second number: "))
-print(f'''
-=====RESULTS=====
-Addition: {n1+n2}
-Subtraction: {n1-n2}
-Multiplication: {n1*n2}
-Division: {n1/n2}
-Floor Division: {n1//n2}
-Remainder: {n1%n2}
-Power: {n1**n2}
-Average: {(n1+n2)/2}
-Percentage: {n1} is {round(n1*100/(n1+n2), 2)} % of {n1+n2}
-==================''')
+while True:
+    print('''===== CALCULATOR MENU =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+===========================
+''')
+    try:
+        user = int(input('Choose operation (1-5): '))
+    except ValueError:
+        print('\nInvalid Input!')
+        input('\nPress ENTER to continue...\n')
+        continue
+    else:
+        if user in [1,2,3,4]:
+            try:
+                n1 = float(input('\nEnter first number: '))
+                n2 = float(input('Enter second number: '))
+            except ValueError:
+                print('\nInvalid Input!')
+            else:
+                if user == 1:
+                    print(f'Result: {n1} + {n2} = {n1+n2}')
+                elif user == 2:
+                    print(f'Result: {n1} - {n2} = {n1-n2}')
+                elif user == 3:
+                    print(f'Result: {n1} x {n2} = {n1*n2}')
+                elif user == 4:
+                    try:
+                        print(f'Result: {n1} ÷ {n2} = {n1/n2}')
+                    except ZeroDivisionError:
+                        print('Can\'t divide by zero.')
+            finally:
+                input('\nPress ENTER to continue...\n')
+        elif user == 5:
+            print('\nThank you for using calculator!')
+            break
+        else:
+            print('\nInvalid Input!')
+            input('\nPress ENTER to continue...\n')

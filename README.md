@@ -18,7 +18,7 @@ This repository contains my Python projects while learning from "Automate the Bo
 5. **Cricket Stats Calculator** - Calculate batting stats
 
 ### Chapter 2: Flow Control
-_(Coming soon...)_
+1. **ATM Machine** - Performs transactions
 
 ## 🛠️ Technologies
 - Python 3.11

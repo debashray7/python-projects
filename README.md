@@ -19,6 +19,7 @@ This repository contains my Python projects while learning from "Automate the Bo
 
 ### Chapter 2: Flow Control
 1. **ATM Machine** - Performs transactions
+2. **Palindrome Checker** - Checks if a given string is a palindrome
 
 ## 🛠️ Technologies
 - Python 3.11

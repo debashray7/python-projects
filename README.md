@@ -20,6 +20,7 @@ This repository contains my Python projects while learning from "Automate the Bo
 ### Chapter 2: Flow Control
 1. **ATM Machine** - Performs transactions
 2. **Palindrome Checker** - Checks if a given string is a palindrome
+3. **Number Guessing Game** - Guess a number between 1-1000 with proximity hints and score tracking.
 
 ## 🛠️ Technologies
 - Python 3.11
